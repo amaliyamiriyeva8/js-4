@@ -8,8 +8,7 @@ const myFunc=function(arr,number){
   }
   return a;
 }
-let a=myFunc(arr,number) ;
-console.log(a);
+console.log(myFunc(arr,number) );
 
 //----------2. findMultiples adlı funksiya yazacaqsız, 2 number parametri alır (ex. findMultiples(number, limit)) - number-dan limitə qədər limitdə daxil olmaqla yeni array-ə number-in 2-yə hasillərini əlavə edəcəksiz, taki limitə çatana qədər.(ex findMultiples(2, 6) = > result = [2, 4] or findMultiples(5, 30) = > result = [5, 10, 20])----------//
 
@@ -21,11 +20,7 @@ const findMultiples=function(number1,limit1){
     }
     return limit2;
 }
-let limit2=findMultiples(5,30);
-console.log(limit2);
-
-
-
+console.log(findMultiples(5,30));
 
 
 //----------3. Count funksiyası verilir, 1 number parametri alır, 1-dən həmin number-a qədər yeni array yaradın(ex. count(10) => result = [1,2,3,4,5,6,7,8,9,10])-------//
@@ -37,8 +32,7 @@ console.log(limit2);
     }
     return newArray;
 }
-let newArray=count(10) ;
-console.log(newArray);
+console.log(count(10));
 
 
 
